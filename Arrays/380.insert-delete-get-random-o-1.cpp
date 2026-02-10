@@ -5,10 +5,11 @@
  */
 #include <vector>
 #include <unordered_map>
+#include <cstdlib>
 // @lc code=start
     class RandomizedSet {
-    vector<int> nums;
-    unordered_map<int,int> mp;
+    std :: vector<int> nums;
+    std :: unordered_map<int,int> mp;
 
 public:
     RandomizedSet() {}
